@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Windows
+  vmImage: ubentu-latest
 
 steps:
 - task: NodeTool@0
